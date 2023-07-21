@@ -1,16 +1,15 @@
-# CreateSpamDomainFilter
-Used domains of spam emails to create block filters
+# CreateSpamDomainFilter.js
+Gmail App Script as a scheduled task to automatically block all spam emails and domain names.
 
-I used ChatGPT and the Gmail App Script documentation to come up with a way to help reduce my spam.
+Logic of Filter:
+1. Check for all emails in the spam folder
+2. Get both the from email address and it's domain name
+3. Create New Filter to block all emails from both.
+4. Move email to trash
 
-Loop through all of spam messages.
+Help:
+ChatGPT and other tutorials helped me identify the syntax for my dream of a more automated spam fighter. So I appreciated the help.
 
-Get Email Address
-
-Get Domain Name of Email Address
-
-Create Filter to Move To Trash any domains with that email address.
-
-Future Goals:
-1. Once Gmail Allows it to report phishing automatically for all spam emails
-2. Allow creation and sharing of list of domains we can all share and import to prevent alot more spam from hitting everyone         
+Future Ideas:
+1. Global Spam List - To help us all block more spam
+2. Send Data to Spam Reporting Sites - To reduce amount of spam
