@@ -3,7 +3,11 @@
 
 Gmail App Script as a scheduled task to automatically block all spam emails and domain names.
 
-Help: ChatGPT and other tutorials helped me identify the syntax for my dream of a more automated spam fighter. So I appreciated the help.
+This is an imperfect tool designed by and coded with the help of ChatGPT to find creative ways to fight spam via Gmail.
+The ideas was to look for spam/trash messages from people not in my contacts and start adding their domains and email addresses as filters automatically.
+Of course there are going to be ongoing issues, but since using this script myself, the amount of spam that shows up in my inbox has massively decreased.
+
+The language is pretty simple, feel free to customize and/or make suggestions for improvements.
 
 
 
